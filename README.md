@@ -10,11 +10,19 @@ token ga tokenizzi qo'yasiz. main_id ga gurux idsini yoki ozingizni idingizni qo
 Qolgan narsalar:
 
 blocked = "bot was blocked by the user" #user botni bloklasa, yuboriladigan text
+
 start = "Hello! This is your start message!" #start bosilganda
+
 ban = "you were banned by the admin!" #ban olgansiz!
+
 unban = "you were unbanned by the admin." #siz unban bo'ldingiz
+
 text_message = "Message that would be send if somebody writes any text"  #kimdir yozganda bu text yuboriladi, keyin sizga forward boladi
+
 banned = "you are blocked" #ban
+
 main_id = 1111 #id, sizning yoki guruxingizning
+
 TOKEN = "1297441208:##############" #token
+
 notallowed = "Не перессылайте мне сообщение!" #user tomonidan forward mumkin emas
