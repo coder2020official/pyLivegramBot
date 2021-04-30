@@ -31,4 +31,4 @@ Bu kod eski. Qandaydir bug topsangiz, issue yarating. Yordam bermoqchi bo'lsangi
 
 Kod >_run tomonidan yaratilgan
 
-t.me/coder2020
+https://t.me/coder2020
