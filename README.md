@@ -26,3 +26,9 @@ main_id = 1111 #id, sizning yoki guruxingizning
 TOKEN = "1297441208:##############" #token
 
 notallowed = "Не перессылайте мне сообщение!" #user tomonidan forward mumkin emas
+
+Bu kod eski. Qandaydir bug topsangiz, issue yarating. Yordam bermoqchi bo'lsangiz, pull request yarating.
+
+Kod >_run tomonidan yaratilgan
+
+t.me/coder2020
