@@ -1,32 +1,27 @@
-import telebot
-import sqlite3
+import telebot #module for bots
+
+
+#some plugins that will be connected
 from plugins.ban import blocked
-import time
-#db = sqlite3.connect('users.db', check_same_thread=False)
-#sql = db.cursor()
 from plugins.unban import unblocked
 from content.text import text
 from content.other import other
 from plugins.start import start
 from plugins.everyone_message import message_everyone
 
-def create_db_new():
-    db = sqlite3.connect('users.db', check_same_thread=False)
-    sql = db.cursor()
-    sql.execute('''CREATE TABLE IF NOT EXISTS USERS(
-        user_id INTEGER,
-        first_name VARCHAR,
-        messageid INT,
-        message VARCHAR)''')
-    sql.execute('''CREATE TABLE IF NOT EXISTS blocked(
-        user_id INT)''')
-    sql.execute('''CREATE TABLE IF NOT EXISTS user(
-        user_id INT)''')
-    sql.close()
-    db.close()
+
+#database connection and creation
+from connection import *
 create_db_new()
     
+
+#main file that registers all commands
+
+#config file
 import config
+
+
+#we use pytelegrambotapi library.
 bot = telebot.TeleBot(config.TOKEN)
 
 @bot.message_handler(commands=['start'])
